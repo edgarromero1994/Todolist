@@ -1,0 +1,121 @@
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.taskBg {
+  background-color: #555;
+  border-radius: 5px;
+  margin: 20px 40px;
+  padding: 10px 140px 10px 15px;
+  text-align: left;
+  font-size: 22px;
+  position: relative;
+}
+
+.taskBg div {
+  display: flex;
+  align-items: center;
+}
+
+.taskNumber {
+  color: #999;
+  border: 1px solid #999;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskBg .taskText {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.taskBg .done .taskText{
+  text-decoration: line-through;
+  opacity: 0.3;
+
+}
+
+.iconsWrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.taskBg .iconsWrap span {
+  display: inline-block;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+  color: #00ff89;
+}
+
+.taskBg .iconsWrap span:hover {
+  color: #FFC107;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 40px 0 40px;
+}
+
+.col {
+  flex: 1; /* Para que ocupe todo el espacio disponible */
+}
+
+.form-control {
+  width: 100%;
+  box-sizing: border-box; 
+  background-color: #fff;
+  border-style: none;
+  padding: 10px; 
+  font-size: 16px; 
+  border-radius: 3px;
+}
+
+.col-auto {
+  display: flex;
+  flex-direction: row-reverse; 
+}
+
+.row button {
+  cursor: pointer;
+  margin-left: 10px;
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn-agregar {
+  background-color: #4CAF50; 
+
+}
+
+.btn-editar {
+  background-color: #4CAF50;
+}
+
+.btn-cancelar {
+  background: #FFC107;
+}
+
+
